@@ -49,7 +49,7 @@ public class KadaiFirstController {
     //仕様1：指定日の曜日を算定する
 
     @GetMapping("/dayofweek/{yyyymmdd}")
-    public String disDayOfWeek(@PathVariable String yyyymmdd) {
+    public String dispDayOfWeek(@PathVariable String yyyymmdd) {
 
         //指定日の年を切り取り
         String year = yyyymmdd.substring(0,4);
